@@ -1,17 +1,22 @@
-# BunnyEra AI
+# 🤖 BunnyEra AI
 
-Independent AI module for BunnyEra · Agents, prompts, and automation logic.
+## 📌 Overview
+Independent AI module for BunnyEra · Agents, prompts, and automation logic.  
+这是 BunnyEra 的智能驱动层。
 
-## Features
-- Intelligent agents for text generation, translation, and verification
-- Prompt-based automation workflows
-- Integration with BunnyEra Console for unified orchestration
+---
 
-## Structure
-- `agents/` → Core AI agents and prompts
-- `automation/` → Workflow automation logic
-- `controllers/` → API and logic controllers
-- `services/` → External service integration
+## 🔗 Features
+- Prompt 体系（Coder, Planner, Reviewer 等）  
+- 自动化逻辑与智能代理  
+- 与 Console、System 联动
 
-## License
+---
+
+## 📜 License
 MIT License
+
+---
+
+## ⬅️ Back to Brand Overview
+[Go to BunnyEra Ecosystem README](../bunnyera-system/README.md)
