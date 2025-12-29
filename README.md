@@ -16,6 +16,8 @@ This repository contains the AI-driven core of the BunnyEra ecosystem, including
 1. Agent System（智能代理系统）
 Located in:
 modules/AgentModule/
+
+
 包含五大核心智能体：
 |  |  |  | 
 |  |  |  | 
@@ -26,6 +28,7 @@ modules/AgentModule/
 
 
 所有 prompt 文件均为 可扩展、可替换、可版本化 的模块。
+
 2. Automation（自动化逻辑）
 - RPA 自动化
 - Cron 任务
