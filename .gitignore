@@ -1,1 +1,115 @@
-node_modules
+# ============================================================
+# BunnyEra AI — Enterprise .gitignore
+# Covers: gateway, agents, web, mobile, automation, tests
+# ============================================================
+
+# -----------------------------
+# Node.js
+# -----------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.local
+.env.*.local
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+*.log.*
+log.txt
+debug.log
+error.log
+
+# -----------------------------
+# Build Output
+# -----------------------------
+dist/
+build/
+out/
+.cache/
+.next/
+.nuxt/
+coverage/
+
+# -----------------------------
+# Frontend (React / Vite / Next)
+# -----------------------------
+*.tsbuildinfo
+*.vite
+vite.config.ts.timestamp*
+.vite/
+
+# -----------------------------
+# Playwright / Tests
+# -----------------------------
+test-results/
+playwright-report/
+playwright/.cache/
+*.trace.zip
+*.png
+*.webm
+
+# -----------------------------
+# Database / Storage
+# -----------------------------
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+data/
+storage/
+tmp/
+
+# -----------------------------
+# Docker
+# -----------------------------
+docker-data/
+docker-cache/
+.docker/
+*.tar
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# IDE / Editor
+# -----------------------------
+.vscode/
+.idea/
+*.iml
+
+# -----------------------------
+# TypeScript
+# -----------------------------
+*.tsbuildinfo
+
+# -----------------------------
+# Python (if used in automation)
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# -----------------------------
+# Misc
+# -----------------------------
+*.bak
+*.tmp
+*.swp
+*.swo
