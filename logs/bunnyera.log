@@ -57,3 +57,6 @@
 [ERROR] 2025-12-29T13:55:00.245Z - Gateway Response: "Error occurred while trying to proxy: localhost:3002/chat/completions"
 [INFO] 2025-12-29T15:05:45.099Z - POST /auth/login-email
 [INFO] 2025-12-29T15:05:48.771Z - POST /auth/register-email
+[INFO] 2025-12-30T20:14:56.511Z - Telegram Bot Token not configured, skipping init.
+[INFO] 2025-12-30T20:14:56.635Z - Database synced
+[INFO] 2025-12-30T20:14:56.639Z - Server is running on port 3001

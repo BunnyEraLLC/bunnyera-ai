@@ -22,6 +22,7 @@ const wss = new WebSocket.Server({ server });
 app.use(cors({
     origin: [
         'http://localhost:5173',
+        'http://localhost:8080', // Web Chat UI
         'https://ai.bunnyera.com'
     ],
     credentials: true
