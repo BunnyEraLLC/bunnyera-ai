@@ -12,6 +12,7 @@ const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/user');
 const generateRoutes = require('./routes/generate');
 const translateRoutes = require('./routes/translate');
+const chatRoutes = require('./routes/chatRoutes'); // 🐰 Chat API
 
 const app = express();
 const server = http.createServer(app);
@@ -39,6 +40,7 @@ app.use('/auth', authRoutes);
 app.use('/user', userRoutes);
 app.use('/generate', generateRoutes);
 app.use('/translate', translateRoutes);
+app.use('/api/chat', chatRoutes); // 🐰 Mount Chat API
 
 // 基础路由
 app.get('/', (req, res) => {
