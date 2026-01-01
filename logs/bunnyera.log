@@ -60,3 +60,18 @@
 [INFO] 2025-12-30T20:14:56.511Z - Telegram Bot Token not configured, skipping init.
 [INFO] 2025-12-30T20:14:56.635Z - Database synced
 [INFO] 2025-12-30T20:14:56.639Z - Server is running on port 3001
+[INFO] 2026-01-01T09:47:25.696Z - Telegram Bot Token not configured, skipping init.
+[INFO] 2026-01-01T09:47:27.470Z - Database synced
+[INFO] 2026-01-01T09:47:27.472Z - Server is running on port 3001
+[INFO] 2026-01-01T10:12:47.871Z - Telegram Bot Token not configured, skipping init.
+[INFO] 2026-01-01T10:12:47.946Z - Database synced
+[INFO] 2026-01-01T10:12:47.949Z - Server is running on port 3001
+[INFO] 2026-01-01T10:13:05.449Z - GET /api/chat/models
+[INFO] 2026-01-01T10:14:20.683Z - GET /api/chat/models
+[INFO] 2026-01-01T10:19:00.170Z - POST /api/chat
+[INFO] 2026-01-01T10:19:31.037Z - POST /api/chat
+[INFO] 2026-01-01T10:21:05.169Z - POST /api/chat
+[INFO] 2026-01-01T10:44:47.252Z - Telegram Bot Token not configured, skipping init.
+[INFO] 2026-01-01T10:44:47.322Z - Database synced
+[INFO] 2026-01-01T10:44:47.324Z - Server is running on port 3001
+[INFO] 2026-01-01T10:45:03.679Z - GET /api/chat/models
